@@ -3,10 +3,12 @@ CREATE TABLE training.categories (
 	training_id INT IDENTITY (1, 1) PRIMARY KEY,
                training_name VARCHAR (255) NOT NULL
 );
+
 CREATE TABLE curriculum.vendors (
 	brand_id INT IDENTITY (1, 1) PRIMARY KEY,
                brand_name VARCHAR (255) NOT NULL
 );
+
 CREATE_TABLE curriculum.subjects (
 	course_id INT IDENTITY (1, 1) PRIMARY KEY,
 	product_name VARCHAR (255) NOT NULL,
